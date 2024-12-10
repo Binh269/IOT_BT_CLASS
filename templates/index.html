@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du lieu nhiet do và do am</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Du lieu nhiet do và do am Sense HAT Emulator</h1>
+        <br />
+        <h1>Binh</h1>
+        <div class="data">
+            <p><strong>Nhiet do:</strong> {{ temperature }}°C</p>
+            <p><strong>Do am:</strong> {{ humidity }}%</p>
+        </div>
+    </div>
+</body>
+</html>
+
